@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="blue_deep">#2B6CB0</color>
+    <color name="blue_mid">#4A90D9</color>
+    <color name="blue_soft">#DBEAFE</color>
+    <color name="blue_softer">#EEF6FF</color>
+    <color name="bg_page">#EEF4FB</color>
+    <color name="card_white">#FFFFFF</color>
+    <color name="text_dark">#1E2A3A</color>
+    <color name="text_mid">#5B6B7C</color>
+    <color name="text_faint">#9AA7B5</color>
+    <color name="green_out">#22A06B</color>
+    <color name="red_missed">#E14B4B</color>
+    <color name="amber_star">#D99A1B</color>
+</resources>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">إدارة المكالمات</string>
+    <string name="tab_calls">المكالمات</string>
+    <string name="tab_contacts">جهات الاتصال</string>
+    <string name="tab_favorites">المفضلة</string>
+
+    <string name="calls_all">الكل</string>
+    <string name="calls_out">الصادر</string>
+    <string name="calls_in">الوارد</string>
+    <string name="calls_missed">لم يرد</string>
+
+    <string name="settings_title">الإعدادات</string>
+    <string name="in_call_title">مكالمة جارية</string>
+
+    <string name="menu_settings">الإعدادات</string>
+
+    <string name="settings_general_ringtone">نغمة الرنين العامة</string>
+    <string name="settings_default_line">الخط الافتراضي للاتصال</string>
+    <string name="settings_line1_ringtone">نغمة خط 1 المنفصلة</string>
+    <string name="settings_line2_ringtone">نغمة خط 2 المنفصلة</string>
+    <string name="settings_auto_record">تسجيل المكالمات تلقائيًا</string>
+    <string name="settings_save_location">مكان حفظ التسجيلات</string>
+
+    <string name="permission_required">لازم تسمح بالصلاحيات الأول عشان الشاشة دي تشتغل</string>
+    <string name="grant_permissions">منح الصلاحيات</string>
+
+    <string name="in_call_mute">كتم الصوت</string>
+    <string name="in_call_speaker">مكبر الصوت</string>
+    <string name="in_call_record">تسجيل</string>
+    <string name="in_call_add_call">إضافة مكالمة</string>
+    <string name="in_call_hold">تعليق</string>
+    <string name="in_call_keypad">لوحة الأرقام</string>
+    <string name="in_call_end">إنهاء المكالمة</string>
+
+    <string name="choose_line_title">اختر الخط للاتصال</string>
+</resources>

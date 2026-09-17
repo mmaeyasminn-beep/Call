@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/blue_deep"
+    android:gravity="center_horizontal">
+
+    <TextView
+        android:id="@+id/incall_avatar"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:layout_marginTop="56dp"
+        android:background="#33FFFFFF"
+        android:gravity="center"
+        android:textColor="@color/card_white"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/incall_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="14dp"
+        android:textColor="@color/card_white"
+        android:textSize="19sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/incall_status"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:textColor="#CFE0F7"
+        android:textSize="12sp" />
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:columnCount="3"
+        android:rowCount="2"
+        android:paddingStart="24dp"
+        android:paddingEnd="24dp">
+
+        <LinearLayout android:id="@+id/btn_mute" style="@style/InCallButton">
+            <TextView style="@style/InCallCircle" android:text="🔇" />
+            <TextView style="@style/InCallLabel" android:text="@string/in_call_mute" />
+        </LinearLayout>
+
+        <LinearLayout android:id="@+id/btn_speaker" style="@style/InCallButton">
+            <TextView style="@style/InCallCircle" android:text="🔊" />
+            <TextView style="@style/InCallLabel" android:text="@string/in_call_speaker" />
+        </LinearLayout>
+
+        <LinearLayout android:id="@+id/btn_record" style="@style/InCallButton">
+            <TextView style="@style/InCallCircle" android:text="⏺" />
+            <TextView style="@style/InCallLabel" android:text="@string/in_call_record" />
+        </LinearLayout>
+
+        <LinearLayout android:id="@+id/btn_add_call" style="@style/InCallButton">
+            <TextView style="@style/InCallCircle" android:text="➕" />
+            <TextView style="@style/InCallLabel" android:text="@string/in_call_add_call" />
+        </LinearLayout>
+
+        <LinearLayout android:id="@+id/btn_hold" style="@style/InCallButton">
+            <TextView style="@style/InCallCircle" android:text="⏸" />
+            <TextView style="@style/InCallLabel" android:text="@string/in_call_hold" />
+        </LinearLayout>
+
+        <LinearLayout android:id="@+id/btn_keypad" style="@style/InCallButton">
+            <TextView style="@style/InCallCircle" android:text="⌨" />
+            <TextView style="@style/InCallLabel" android:text="@string/in_call_keypad" />
+        </LinearLayout>
+
+    </GridLayout>
+
+    <TextView
+        android:id="@+id/btn_end_call"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="30dp"
+        android:background="@color/red_missed"
+        android:gravity="center"
+        android:text="📞"
+        android:textSize="22sp" />
+
+</LinearLayout>
